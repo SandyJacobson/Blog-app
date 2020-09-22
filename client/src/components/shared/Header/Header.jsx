@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div>
-      
+      <h3>Blog App</h3>
     </div>
   );
 };
