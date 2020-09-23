@@ -22,17 +22,17 @@ const PostDetails = (props) => {
     return <h1>... not loading</h1>;
   }
 
-  const posts = () => {
-    return (
-      <div className="single-post">
-      <ul>
-        <li>{post.title}</li>
-          <img src={post.imgURL} alt='robocophousinggames' />
-          <li>{post.content}</li>
-      </ul>
-      </div>
-    )
-  };
+  // const posts = () => {
+  //   return (
+  //     <div className="single-post">
+  //     <ul>
+  //       <li>{post.title}</li>
+  //         <img src={post.imgURL} alt='robocophousinggames' />
+  //         <li>{post.content}</li>
+  //     </ul>
+  //     </div>
+  //   )
+  // };
 
   return (
     <Layout>
