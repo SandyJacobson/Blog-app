@@ -29,9 +29,11 @@ const Home = (props) => {
   });
 
   return (
-    <div className="multi-post-container">
-      <Layout>{mappedPosts}</Layout>
-    </div>
+    <Layout>
+      <div className="multi-post-container">
+        {mappedPosts}
+      </div>
+    </Layout>
   );
 };
 
