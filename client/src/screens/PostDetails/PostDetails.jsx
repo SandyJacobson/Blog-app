@@ -24,6 +24,18 @@ const PostDetails = (props) => {
 
   return (
     <Layout>
+
+      <div className="post-details">
+        <div className="single-post">
+          <ul>
+          <li className="title">{post.title}</li>
+            <img
+              src={post.imgURL}
+              className="single-post-image"
+              alt="robocophousinggames" />
+          <li className="content">{post.content}</li>
+          </ul>
+
       <div className="single-post">
         <ul>
           <li>{post.title}</li>
@@ -42,6 +54,7 @@ const PostDetails = (props) => {
           >
             Delete
           </button>
+
         </div>
       </div>
     </Layout>
