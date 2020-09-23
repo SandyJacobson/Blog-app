@@ -8,31 +8,31 @@ const main = async () => {
     [
       {
         title: "Bears Win",
-        imgURL: "https://www.chicagotribune.com/sports/bears/ct-cb-chicago-bears-10-thoughts-brad-biggs-20200914-qdncaufqm5dfdjfdffc7hdbsoy-story.html",
+        imgURL: "https://images.unsplash.com/photo-1573521193826-58c7dc2e13e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         content:
           "Trubisky suprisingly puts team on his back and leads insane Bears comeback to beat Detroit",
       },
       {
         title: "Trubisky Shines in the 4th",
-        imgURL: "https://www.nbcsports.com/chicago/bears/under-center-podcast-trubisky-shines-big-win-over-cowboys",
+        imgURL: "https://images.unsplash.com/photo-1573521193826-58c7dc2e13e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         content:
           "After struggling in the first three quarters, Trubisky shines with a 3 TD fourth.",
       },
       {
         title: "Swift Drops winning TD",
-        imgURL: "https://sports.yahoo.com/lions-gonna-lions-d-andre-swift-drops-a-sure-gamewinning-td-for-detroit-as-bears-come-back-to-win-202718928.html",
+        imgURL: "https://images.unsplash.com/photo-1573521193826-58c7dc2e13e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         content:
           "The rookie had a perfectly thrown ball go through his hands in the endzone with 12 seconds remaining in the game. ",
       },
       {
         title: "Fuller has timely interception",
-        imgURL: "https://bearswire.usatoday.com/lists/chicago-bears-detroit-lions-final-score-recap-highlights-nfl-week-1/",
+        imgURL: "https://images.unsplash.com/photo-1573521193826-58c7dc2e13e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         content:
           "With their backs against the wall and when they needed it most, Full comes up with huge INT",
       },
       {
         title: "Soldier Field Still Empty",
-        imgURL: "https://www.chicagotribune.com/sports/bears/ct-chicago-bears-pa-announcer-soldier-field-20200917-4zb73wtsarfftozgbmekqos3gq-story.html",
+        imgURL: "https://images.unsplash.com/photo-1573521193826-58c7dc2e13e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         content:
           "Soldier field witll remain closed for this weekends home opener",
       }
