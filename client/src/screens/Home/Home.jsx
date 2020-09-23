@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import Layout from "../../components/shared/Layout/Layout";
 import { getPosts } from "../../services/posts";
+import './Home.css';
 
 const Home = (props) => {
   const [posts, setPosts] = useState([]);
@@ -28,7 +29,7 @@ const Home = (props) => {
   });
 
   return (
-    <div>
+    <div className="multi-post-container">
       <Layout>{mappedPosts}</Layout>
     </div>
   );

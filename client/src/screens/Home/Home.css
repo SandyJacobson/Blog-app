@@ -1,0 +1,22 @@
+.multi-post-container {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.multi-post-container .single-post-home {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.single-post-home {
+  font-size: 29px;
+  font-weight: 700;
+  width: 60%; 
+  align-content: center;
+  box-shadow: 3px 4px 6px #A9A9A9;
+  padding: 40px;
+  margin: 30px auto;
+  position: relative;
+} 

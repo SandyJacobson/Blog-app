@@ -1,9 +1,10 @@
 import React from 'react';
+import './Footer.css';
 
-const Footer = (props) => {
+const Footer = () => {
   return (
-    <div>
-      <h4>sports blog</h4>
+    <div className="footer">
+      <h5>Made with <span role="img" aria-label="heart">&#x1F5A4; &nbsp;</span> by Sandy, Juan, Emma, Breeana and Ash.</h5>
     </div>
   );
 };
