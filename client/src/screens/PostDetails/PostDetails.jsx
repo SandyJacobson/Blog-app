@@ -24,37 +24,26 @@ const PostDetails = (props) => {
 
   return (
     <Layout>
-
       <div className="post-details">
         <div className="single-post">
           <ul>
-          <li className="title">{post.title}</li>
-            <img
-              src={post.imgURL}
-              className="single-post-image"
-              alt="robocophousinggames" />
-          <li className="content">{post.content}</li>
+            <li>{post.title}</li>
+            <img src={post.imgURL} alt="robocophousinggames" />
+            <li>{post.content}</li>
           </ul>
-
-      <div className="single-post">
-        <ul>
-          <li>{post.title}</li>
-          <img src={post.imgURL} alt="robocophousinggames" />
-          <li>{post.content}</li>
-        </ul>
-        <div className="button-container">
-          <button className="edit-button">
-            <Link className="edit-link" to={`/posts/${post._id}/edit`}>
-              Edit
-            </Link>
-          </button>
-          <button
-            className="delete-button"
-            onClick={() => deletePost(post._id)}
-          >
-            Delete
-          </button>
-
+          <div className="button-container">
+            <button className="edit-button">
+              <Link className="edit-link" to={`/posts/${post._id}/edit`}>
+                Edit
+              </Link>
+            </button>
+            <button
+              className="delete-button"
+              onClick={() => deletePost(post._id)}
+            >
+              Delete
+            </button>
+          </div>
         </div>
       </div>
     </Layout>
