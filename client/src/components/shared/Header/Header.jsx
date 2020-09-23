@@ -1,10 +1,19 @@
 import React from 'react';
+import './Header.css';
 
-const Header = (props) => {
+const Header = () => {
   return (
-    <div>
-      <h3>Blog App</h3>
-    </div>
+    <header className="header">
+    <div className="container">
+      <h3>Sports Team Chronicles</h3>
+      <nav className="nav-links">
+          <ul>
+            <li><a href="#about">about us</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+          </ul>
+      </nav>
+      </div>
+    </header>
   );
 };
 
