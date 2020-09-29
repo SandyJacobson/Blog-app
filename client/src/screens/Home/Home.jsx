@@ -20,7 +20,7 @@ const Home = (props) => {
       <div key={idx} className="single-post-home">
       <ul key={idx}>
         <li>{post.title}</li>
-        <Link to="/posts/:id">
+          <Link to={`/posts/${post._id}`}>
           <img src={post.imgURL} alt='cool' />
         </Link>
       </ul>
@@ -29,9 +29,11 @@ const Home = (props) => {
   });
 
   return (
-    <div className="multi-post-container">
-      <Layout>{mappedPosts}</Layout>
-    </div>
+    <Layout>
+      <div className="multi-post-container">
+        {mappedPosts}
+      </div>
+    </Layout>
   );
 };
 

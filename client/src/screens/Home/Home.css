@@ -13,9 +13,8 @@
 .single-post-home {
   font-size: 29px;
   font-weight: 700;
-  width: 60%; 
+  /* width: 60%;  */
   align-content: center;
-  box-shadow: 3px 4px 6px #A9A9A9;
   padding: 40px;
   margin: 30px auto;
   position: relative;
